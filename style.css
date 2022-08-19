@@ -11,6 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 h1 {
   font-size: 2rem;
@@ -32,8 +33,9 @@ input {
   margin-top: 10px;
   color: white;
   font-size: 18px;
+  box-shadow: 0 7px 6px #0000003b;
 }
-button{
+button {
   border: none;
   width: 55px;
   height: 25px;
@@ -42,42 +44,20 @@ button{
   cursor: pointer;
   color: white;
 }
-.todo-con{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.todo-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.todo-list{
-    margin-top: 20px;
-    list-style: none;
-    color: #5da0ad;
-    font-size: 20px;
+.todo-list {
+  margin-top: 20px;
+  list-style: none;
+  color: #5da0ad;
+  font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.todo {
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 7px 6px #0000003b;
+}
